@@ -1,0 +1,81 @@
+.app-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eef2f7;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 10px;
+  width: 420px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 18px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1e40af;
+}
+
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.delete-btn {
+  background-color: #dc2626;
+  width: auto;
+  padding: 5px 10px;
+}
+
+.delete-btn:hover {
+  background-color: #991b1b;
+}
+
+.admin-badge {
+  color: white;
+  background-color: #16a34a;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.admin-text {
+  color: #16a34a;
+  font-weight: bold;
+}
+
+.user-text {
+  color: #2563eb;
+  font-weight: bold;
+}
+
+.info-text {
+  margin-top: 10px;
+  font-size: 14px;
+  color: gray;
+}
