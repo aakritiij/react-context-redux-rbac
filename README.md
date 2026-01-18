@@ -7,10 +7,7 @@ This project demonstrates **role-based access control (RBAC)** in a React applic
 
 The goal is to clearly separate **authentication logic** from **business data** and enforce different permissions for different user roles.
 
----
-
 ## Features
-
 - Login system using React Context API
 - Role-based access control (Admin vs User)
 - Admin can:
@@ -21,7 +18,6 @@ The goal is to clearly separate **authentication logic** from **business data** 
 - Global product state managed using Redux Toolkit
 - Clean and simple UI focused on functionality
 
----
 
 ## Roles and Permissions
 
@@ -30,15 +26,13 @@ The goal is to clearly separate **authentication logic** from **business data** 
 | User | ✅ Yes         | ❌ No       | ❌ No          |
 | Admin| ✅ Yes         | ✅ Yes      | ✅ Yes         |
 
----
 
 ## Tech Stack
 
 - React
 - React Context API
 - Redux Toolkit
-- React Redux
-- JavaScript (ES6)
+- JavaScript 
 
 ---
 
@@ -60,3 +54,18 @@ src/
 │
 ├── App.js
 └── index.js
+
+How It Works
+-Authentication state (user, role, login/logout) is handled using Context API
+-Product data is stored and managed globally using Redux Toolkit
+-Role checks are enforced at the component level to restrict access to admin actions
+-Users cannot access admin functionality through UI or logic
+
+How to Run the Project
+-npm install
+-npm start
+
+Learning Outcome
+-Proper use of Context API for authentication
+-Clean separation of concerns between Context and Redux
+-Practical implementation of role-based access control in React
